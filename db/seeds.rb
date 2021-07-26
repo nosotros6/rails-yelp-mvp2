@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+restaurant = Restaurant.create!(name: Faker::Restaurant.name, address: Faker::Address.street_name, phone_number: Faker::PhoneNumber.phone_number, category: "chinese")
+
+restaurant = Restaurant.create!(name: Faker::Restaurant.name, address: Faker::Address.street_name, phone_number: Faker::PhoneNumber.phone_number, category: "french")
+
+restaurant = Restaurant.create!(name: Faker::Restaurant.name, address: Faker::Address.street_name, phone_number: Faker::PhoneNumber.phone_number, category: "italian")
+
+restaurant = Restaurant.create!(name: Faker::Restaurant.name, address: Faker::Address.street_name, phone_number: Faker::PhoneNumber.phone_number, category: "japanese")
+
+restaurant = Restaurant.create!(name: Faker::Restaurant.name, address: Faker::Address.street_name, phone_number: Faker::PhoneNumber.phone_number, category: "french")
+
+restaurant = Restaurant.create!(name: Faker::Restaurant.name, address: Faker::Address.street_name, phone_number: Faker::PhoneNumber.phone_number, category: "belgian")
